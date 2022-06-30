@@ -1,0 +1,178 @@
+/*
+2022-06-30
+첫 자바 프로그램
+By Austin
+  */
+
+import java.util.*;  //scanner를사용하기 위해 추가 *대신 Scanner 사용가능 (사용은 항상같음) scanner 할때 사용
+class Main {
+  public static void main(String[] args) {
+
+
+  int x, y, z;
+    x = 63;
+    y = 18;
+    z = 52;
+    
+    System.out.println("x값은" + x + "입니다");
+    System.out.println("y값은" + y + "입니다");
+    System.out.println("z값은" + z + "입니다");
+    System.out.println("합계는" + (x + y + z) + "입니다");
+    
+  
+
+
+
+    
+  // int x;
+  // int y;
+  //   x = 63;
+  //   y = 18;
+
+  //   System.out.println("x값은" + x + "입니다.");
+  //   System.out.println("y값은" + y + "입니다.");
+  //   System.out.println("합계는" + (x + y) + "입니다.");
+  //   System.out.println("평균은" + (x + y)/2 + "입니다.");       
+  
+    
+  
+  
+
+
+
+
+    
+  // System.out.println("첫 Java프로그램입니다.");
+  // System.out.println("화면에 출력하고 있습니다.");   
+
+  // System.out.println("첫자바 프로그램 화면에 출력");  
+
+  //   //print println  println("sdfsdf" + "sdfsdf")
+
+
+
+
+
+
+    
+    // System.out.println("금");  //ln은 줄바꿈
+    // System.out.print("상");
+    // System.out.println("첨");
+    // System.out.print("화");  //ln을 마지막에 적으면 줄이바뀐상태로 종료 적지않으면 줄이 바뀌지않고 종료
+    
+
+
+
+
+
+
+    
+  //   Scanner stdIn = new Scanner(System.in); //stdIn은 이름이라 마음대로 수정가능
+
+  //   System.out.print("정숫값:");
+  // //키보드를 통해 입력한 정숫값을 받는다
+  //   int x = stdIn.nextInt();  //입력받은 정숫값을 x에 저장한다
+  //   System.out.println(x + "를 입력했습니다.");
+
+  //   System.out.println("10을 더한 값은" + (x + 10) + "입니다");
+  //   System.out.println("10을 뺀 값은" + (x - 10) + "입니다") ;     
+
+
+
+
+
+
+    
+    
+    //모든 자바프로그램을 실행시키면 메인메소드를 찾음 시작점을 알려주는 용도
+
+    // Scanner scanner = new Scanner(System.in);  //스캐너 객체 생성 (사용은 항상 같음)
+
+    // System.out.print("두자리 정수를 하나 입력해주세요.>"); //57
+    // String input = scanner.nextLine();
+    // int num = Integer.parseInt(input);  //입력받은 문자열을 숫자로 변환
+
+    // System.out.println("입력내용 :"+input);
+    // System.out.println("num=%d%n", num);
+
+
+    // Scanner scanner = new Scanner(System.in);
+
+    // System.out.print("두자리 정수를 하나 입력해주세요.>"); //57 입력
+    // String input = scanner.nextLine();
+    // int num = Integer.parseInt(input);  //입력받은 문자열을 숫자로 변환
+
+    // System.out.println("입력내용 :"+input);
+    // System.out.printf("num=%d%n", num);
+
+
+
+
+
+
+
+
+    
+    
+    //여기가 처음 시작
+    // System.out.println("Hello world!");   //"Hello World" 출력
+    // //System.out.println("코드의실행을 중지시킬 경우도 사용");       
+
+//       }
+// }
+
+
+    // class VarEx2 {
+    //   public static void main(String[] args) {
+        // int x = 10, y = 20;  //정수형 변수 x에 10을 할당 y에 20을 할당
+        // int tmp = 0;    //tmp라는 변수에 0을 할당
+        // System.out.println("x: "+ x + " y:"+ y + " tmp:"+ tmp);  //변수와 글자를 붙인다 x라는글자와 x라는 변수를 연결하여 출력
+        // tmp = x;  //tmp= 10
+        // x = y;   // x=20
+        // y = tmp;  //y=20
+
+        // // vkdlTjs x, y = y, x
+        // System.out.println("x: "+ x + " y:"+ y + " tmp:"+ tmp);
+    //   }
+    // }   
+
+
+
+
+
+    
+
+
+    
+// // class StringEx {
+// //   public static void main(String[] args) {
+//     String name = "Ja" + "va";  //ja라는 문자열과 va라는 문자열을 붙여서 문자열 변수 name에 할당한다.
+//     String str = name + 8.0;    //name이라는 문자열 형 변수값과 8.0이라는 실수를 붙여서 문자열 변수str에 할당
+
+//     System.out.println(name);
+//     System.out.println(str);
+//     System.out.println(7 + " ");
+//     System.out.println(" " + 7);
+//     System.out.println(7 + "");
+//     System.out.println("" + 7);
+//     System.out.println("" + "");
+//     System.out.println(7 + 7 + ""); // 앞이 숫자라 숫자가 계산된다
+//     System.out.println("" + 7 + 7); // 앞이 문자라 뒤의 숫자가 문자처리된다(자동형변환)
+//   }
+// }
+
+
+
+
+
+    
+
+// //2개의 정숫값 82와 17의 합과 차를 구해서 표시
+// // Class SumDiff2 {
+// //   public static void main(String[] args) {
+//     System.out.println("82 + 17 = " + (82 + 17));  // (82 + 17)의 () 제거시 숫자가 아닌 글자로 인식된다 99가 아닌 8217로 출력
+// //     System.out.println("82 - 17 = " + (82 - 17));
+  }
+}
+
+ 
